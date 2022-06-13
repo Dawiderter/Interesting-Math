@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<textarea data-template>
+						# World of mathematics
+						---
+						## Do you like math?
+					</textarea>
+				</section>
+				<section>
+					<h3>Mathematopia</h3>
+					<h5>by Zhaorui Xu</h5>
+					<img class="r-stretch" src="images/Map.jpg" alt="">
+				</section> 
+				<section>
+					<h3>Compass and a Ruler</h3>
+					<img class="r-stretch" src="images/Regular_Hexagon_Inscribed_in_a_Circle_240px.gif" alt="">
+					<p style="font-size: small;"> By <a href="//commons.wikimedia.org/wiki/User:Aldoaldoz" title="User:Aldoaldoz">Aldoaldoz</a> - <span class="int-own-work" lang="en"> Own work </span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10023563">Link</a> </p>
+				</section>
+				<section>
+					<h3>Squaring the Circle</h3>
+					<img class="r-stretch" src="images/20140412140047!Squaring_the_circle.svg" alt="">
+				</section>
+				<section>
+					<h3>Fractals</h3>
+					<img class="r-stretch" src="images/Mandelbrot_sequence_new.gif" alt="">
+				</section>
+				<section>
+					<h3>Coastline Paradox</h3>
+					<img class="r-stretch" src="images/Great-britain-coastline-paradox.gif" alt="">
+				</section>
+				<section>
+					<h3>Seven Bridges of Königsberg</h3>
+					<img class="r-stretch" src="images/Konigsberg_bridges.png" alt="">
+					<p style="font-size: small;"> By Bogdan Giuşcă - based on the image, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10023563">Link</a> </p>
+				</section>
+				<section>
+					<h3>Pigeonhole Principle</h3>
+					<img class="r-stretch" src="images/TooManyPigeons.jpg" alt="">
+					<p style="font-size: small;"> By <a href="https://en.wikipedia.org/wiki/User:McKay">McKay</a>, BenFrantzDale, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10023563">Link</a> </p>
+				</section>
+				<section>
+					<h3>Monty Hall Problem</h3>
+					<img src="images/Monty_open_door.svg.png" alt="">
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/math/math.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				zoomLevel: 4,
+				pan: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX, RevealZoom ]
+			});
+		</script>
+	</body>
+</html>
